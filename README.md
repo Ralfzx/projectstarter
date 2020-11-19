@@ -1,5 +1,5 @@
 # projectstarter
-this is my projectstarter wich is overcomplicated!
+this is my projectstarter
 ## What does it do?
 Its simple one command line command and you have a folder for your project and optionaly opens vscode for you!
 ## SETUP
