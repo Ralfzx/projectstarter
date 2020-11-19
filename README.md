@@ -1,8 +1,8 @@
 # projectstarter
 this is my projectstarter wich is overcomplicated!
-#What does it do?
+#1What does it do?
 Its simple one command line command and you have a folder for your project and optionaly opens vscode for you!
-#SETUP
+#2SETUP
 clone this repo in some folder!
 open new cmd windows as ADMINISTRATOR or else setup wont work
 navigate to your folder where you cloned this repo using `cd <path to folder>`
