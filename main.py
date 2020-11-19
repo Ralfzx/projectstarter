@@ -18,12 +18,11 @@ f.truncate(0)
 f.close()
 
 
-print(projectdir)
-print(folder_name)
 finalres = os.path.join(projectdir, folder_name.strip())
-print(finalres)
 os.mkdir(finalres)
+os.chdir(finalres)
 
 if openvscode == True or "true":
+    
     os.system(f"cd {finalres}")
     os.system("code .")

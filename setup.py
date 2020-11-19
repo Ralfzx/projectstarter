@@ -38,11 +38,11 @@ f.close()
 #making 2 paths for moving
 print("making")
 frompath = os.path.join(adfold + "\create.bat")
-topath = "C:\Windows\System32"
+topath = os.path.join(adfold, "batscripts")
+os.mkdir(topath)
 scriptfrom = os.path.join(location, "main.py")
 
-
-#moving created cmd file to system32 /to work in terminal
+os.environ["PATH"] += os.pathsep + topath
 
 print("moving")
 shutil.copy(frompath, topath)
